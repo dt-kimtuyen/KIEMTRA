@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            txtUserName = new TextBox();
+            textboxusername = new TextBox();
             label2 = new Label();
-            txtpassword = new TextBox();
+            textboxmatkhau = new TextBox();
             btnlogin = new Button();
             SuspendLayout();
             // 
@@ -45,12 +45,12 @@
             label1.Text = "Tên đăng nhập";
             label1.Click += label1_Click;
             // 
-            // txtUserName
+            // textboxusername
             // 
-            txtUserName.Location = new Point(317, 63);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(125, 27);
-            txtUserName.TabIndex = 1;
+            textboxusername.Location = new Point(317, 63);
+            textboxusername.Name = "textboxusername";
+            textboxusername.Size = new Size(125, 27);
+            textboxusername.TabIndex = 1;
             // 
             // label2
             // 
@@ -62,18 +62,18 @@
             label2.TabIndex = 2;
             label2.Text = "Mật khẩu";
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            txtpassword.Location = new Point(327, 135);
-            txtpassword.Margin = new Padding(2);
-            txtpassword.Name = "txtpassword";
-            txtpassword.Size = new Size(121, 27);
-            txtpassword.TabIndex = 3;
+            textboxmatkhau.Location = new Point(327, 135);
+            textboxmatkhau.Margin = new Padding(2);
+            textboxmatkhau.Name = "textboxmatkhau";
+            textboxmatkhau.Size = new Size(121, 27);
+            textboxmatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
             btnlogin.Location = new Point(338, 238);
-            btnlogin.Margin = new Padding(4, 4, 4, 4);
+            btnlogin.Margin = new Padding(4);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(109, 48);
             btnlogin.TabIndex = 4;
@@ -86,11 +86,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnlogin);
-            Controls.Add(txtpassword);
+            Controls.Add(textboxmatkhau);
             Controls.Add(label2);
-            Controls.Add(txtUserName);
+            Controls.Add(textboxusername);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -100,9 +100,9 @@
         #endregion
 
         private Label label1;
-        private TextBox txtUserName;
+        private TextBox textboxusername;
         private Label label2;
-        private TextBox txtpassword;
+        private TextBox textboxmatkhau;
         private Button btnlogin;
     }
 }
