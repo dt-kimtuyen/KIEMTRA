@@ -43,13 +43,13 @@
             label1.Name = "label1";
             label1.Size = new Size(129, 25);
             label1.TabIndex = 0;
-            label1.Text = "Ten dang nhap";
+            label1.Text = "Tên đăng nhập";
             label1.Click += label1_Click;
             // 
             // txtUserName
             // 
             txtUserName.Location = new Point(396, 79);
-            txtUserName.Margin = new Padding(4, 4, 4, 4);
+            txtUserName.Margin = new Padding(4);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(155, 31);
             txtUserName.TabIndex = 1;
@@ -62,7 +62,7 @@
             label2.Name = "label2";
             label2.Size = new Size(86, 25);
             label2.TabIndex = 2;
-            label2.Text = "Mat khau";
+            label2.Text = "Mật khẩu";
             // 
             // txtpassword
             // 
@@ -75,7 +75,7 @@
             // btnlogin
             // 
             btnlogin.Location = new Point(416, 305);
-            btnlogin.Margin = new Padding(4, 4, 4, 4);
+            btnlogin.Margin = new Padding(4);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(136, 60);
             btnlogin.TabIndex = 4;
@@ -92,7 +92,7 @@
             Controls.Add(label2);
             Controls.Add(txtUserName);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
